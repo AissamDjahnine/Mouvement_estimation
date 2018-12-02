@@ -17,9 +17,9 @@ une implémentation de la méthode de : Horn et Schunck et introduisons égaleme
 
 # Example d'application :
 Inputs : Image 1 & Image 2 ( un mouvement elementaire ) 
-Image 1
+# Image 1
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image1.bmp)
-Image 2
+# Image 2
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image2.bmp)
 # Resultats ( via matlab - voir code matlab ) : 
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/u_v.bmp)
