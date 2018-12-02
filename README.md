@@ -12,7 +12,9 @@ contrainte de flux optique et l'amplitude des variations du champ d'écoulement,
 des champs de vecteurs lisses.
 Une des limites de cette méthode est que, typiquement, elle ne peut qu'estimer les
 petits mouvements. En présence de grands déplacements, cette méthode échoue lorsque le
-gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons une
-implémentation de la méthode de Horn et Schunck et introduisons également une stratégie
-multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie
-multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
+gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons : 
+# une implémentation de la méthode de Horn et Schunck et introduisons également une stratégie
+# multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie
+# multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
+
+
