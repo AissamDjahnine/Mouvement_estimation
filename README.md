@@ -21,7 +21,7 @@ Inputs : Image 1 & Image 2 ( un mouvement elementaire )
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image1.bmp)
 # Image 2
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image2.bmp)
-# Resultats ( via matlab - voir code matlab ) : 
+# Resultats ( via matlab ) : 
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/u_v.bmp)
 
 
