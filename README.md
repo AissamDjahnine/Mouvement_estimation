@@ -13,8 +13,17 @@ des champs de vecteurs lisses.
 Une des limites de cette méthode est que, typiquement, elle ne peut qu'estimer les
 petits mouvements. En présence de grands déplacements, cette méthode échoue lorsque le
 gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons : 
-une implémentation de la méthode de : 
-# Horn et Schunck
-et introduisons également une stratégie multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
+une implémentation de la méthode de : Horn et Schunck et introduisons également une stratégie multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
+
+# Example d'application :
+Inputs : Image 1 & Image 2 ( un mouvement elementaire ) 
+Image 1
+![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image1.bmp)
+Image 2
+![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image2.bmp)
+# Resultats ( via matlab - voir code matlab ) : 
+![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/u_v.bmp)
+
+
 
 
