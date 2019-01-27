@@ -1,5 +1,5 @@
 # Estimation du Mouvement
-# Note : codes are commented in french in this section , i'll provide english comments later
+# Note : codes are commented in french.
 Le travail séminal de Horn et Schunck est la première méthode variationnelle pour
 l'estimation du flux optique. Il a introduit un nouveau cadre où le flux optique est calculé
 comme la solution d'un problème de minimisation. De l'hypothèse que les intensités des
