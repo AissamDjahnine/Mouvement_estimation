@@ -16,9 +16,8 @@ gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons :
 une implémentation de la méthode de : Horn et Schunck et introduisons également une stratégie multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
 
 ## Usage 
-1) ```git clone ```
-2) ```cd ```
-3) ```use the makefile, run "make" commend '''
+1) ```git clone https://github.com/AissamDjahnine/Mouvement_estimation.git ```
+2) ```cd Mouvement_estimation-master/```
 
 # Example d'application :
 Inputs : Image 1 & Image 2 ( un mouvement elementaire ) 
@@ -26,8 +25,8 @@ Inputs : Image 1 & Image 2 ( un mouvement elementaire )
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image1.bmp)
 # Image 2
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image2.bmp)
-# Resultats ( via matlab ) : 
-![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/u_v.bmp)
+# Resultats ( via quiver pythonb ) : 
+![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/resultats.png)
 
 
 
