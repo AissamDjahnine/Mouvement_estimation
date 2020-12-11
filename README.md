@@ -15,6 +15,11 @@ petits mouvements. En présence de grands déplacements, cette méthode échoue 
 gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons : 
 une implémentation de la méthode de : Horn et Schunck et introduisons également une stratégie multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
 
+## Usage 
+1) ```git clone ```
+2) ```cd ```
+3) ```use the makefile, run "make" commend '''
+
 # Example d'application :
 Inputs : Image 1 & Image 2 ( un mouvement elementaire ) 
 # Image 1
