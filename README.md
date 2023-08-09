@@ -1,23 +1,5 @@
-# Estimation du Mouvement
-# Note : codes are commented in french.
-Le travail séminal de Horn et Schunck est la première méthode variationnelle pour
-l'estimation du flux optique. Il a introduit un nouveau cadre où le flux optique est calculé
-comme la solution d'un problème de minimisation. De l'hypothèse que les intensités des
-pixels ne changent pas au fil du temps, l'équation de contrainte de flux optique est dérivée.
-Cette équation relie le flux optique aux dérivées de l'image. Il y a une infinité de champs
-de vecteurs qui satisfont la contrainte de flux optique, donc le problème était mal posé.
-Pour surmonter ce problème, Horn et Schunck ont introduit une condition de régularité
-supplémentaire qui restreint les solutions possibles. Leur méthode minimise à la fois la
-contrainte de flux optique et l'amplitude des variations du champ d'écoulement, produisant
-des champs de vecteurs lisses.
-Une des limites de cette méthode est que, typiquement, elle ne peut qu'estimer les
-petits mouvements. En présence de grands déplacements, cette méthode échoue lorsque le
-gradient de l'image n'est pas assez lisse. Dans ce projet, nous décrivons : 
-une implémentation de la méthode de : Horn et Schunck et introduisons également une stratégie multi-résolution pour faire face à des déplacements plus importants. Pour cette stratégie multi-échelle, nous créons une structure pyramidale d'images sous-échantillonnées.
-
-## Usage 
-1) ```git clone https://github.com/AissamDjahnine/Mouvement_estimation.git ```
-2) ```cd Mouvement_estimation-master/```
+# Optical Flow Estimation with Horn-Schunck Method and Multi-Resolution
+Experience Horn and Schunck's groundbreaking work, the first variational method for optical flow estimation. Our project implements their method and introduces a multi-resolution strategy to handle larger displacements. By assuming constant pixel intensities over time, we derive the optical flow equation. While effective for small motions, this method struggles with larger displacements due to image gradient issues. Our approach involves a smoothness constraint and a multi-scale pyramid of downsampled images for robust optical flow estimation.
 
 # Example d'application :
 Inputs : Image 1 & Image 2 ( un mouvement elementaire ) 
@@ -25,7 +7,7 @@ Inputs : Image 1 & Image 2 ( un mouvement elementaire )
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image1.bmp)
 # Image 2
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/image2.bmp)
-# Resultats ( via quiver pythonb ) : 
+# Resultats (via quiver pythonb) : 
 ![alt text](https://github.com/AissamDjahnine/Mouvement_estimation/blob/master/resultats.png)
 
 
